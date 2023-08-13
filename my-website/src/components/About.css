@@ -1,0 +1,14 @@
+.about{
+    /* margin: auto; */
+    
+}
+.left{
+    float:left;
+    width:50%;
+    /* height:280px; */
+}
+.right{
+    float:right ;
+    width: 50%;
+    
+}

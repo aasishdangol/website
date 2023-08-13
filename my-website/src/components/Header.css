@@ -1,0 +1,95 @@
+.head{
+    height:100% ;
+    width:100%;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+   
+   
+}
+nav{
+    opacity: 0.5;
+    height: 100%;
+    background-color: blue ;
+    z-index: 1;
+  
+
+    
+}
+.navbar-brand{
+   margin-bottom: auto;
+   color: white;
+   margin-left: 3%;
+   
+}
+.nav-link{
+    color:white;
+    margin: 10px;
+ 
+}
+.collapse{
+    margin-bottom: auto;
+    color: white;
+    margin-left: 50%;
+      
+}
+.head-text{
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    color: aliceblue;
+    margin-left: 3%;
+   
+}
+.head-text > h1{
+    color: aqua;
+}
+button{
+    background-color: aliceblue;
+    border: none;
+    padding: 8px;
+
+}
+.contain{
+    background-color: rgb(13, 236, 162);
+    color: aliceblue;
+    padding: 8px;
+    position: absolute;
+    /* margin-top: 30%; */
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+   
+    /* position: relative; */
+   
+}
+.contain > h2{
+    margin-left: 3%;
+}
+
+#carouselExampleIndicators{
+    height: 40%;
+    width: 40%;
+    bottom: 30px;
+    right: 16px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+      
+    
+}
+.carousel-indicators button{
+width: 10px;
+height: 10px;
+border-radius: 100%;
+
+}
+.carousel-indicators .active{
+    background-color:white;
+}
+
+.carousel-item > img{
+    height: 50%;
+    width: 100%;
+}
